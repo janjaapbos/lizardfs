@@ -25,6 +25,8 @@ git clone "$source_dir" "$working_dir/lizardfs"
 # Build packages.
 cd "$working_dir/lizardfs"
 
+git checkout v3.10.4-opt
+
 # Move service files to debian/
 cp rpm/service-files/* debian/
 

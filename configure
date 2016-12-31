@@ -18,8 +18,8 @@ rm -f CMakeCache.txt
 cmake .. \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DENABLE_TESTS=NO \
-	-DCMAKE_INSTALL_PREFIX=/ \
-	-DENABLE_DEBIAN_PATHS=YES \
+	-DCMAKE_INSTALL_PREFIX=/opt/lizardfs-3.10.4 \
+	-DENABLE_DEBIAN_PATHS=NO \
 	-DENABLE_DOCS=$doc \
 
 cat >../Makefile <<END
